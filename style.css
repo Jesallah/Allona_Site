@@ -1,0 +1,290 @@
+body{
+    margin: 0px;
+    background-image: url(white\ wavy\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: poppins;
+}
+
+/* Navigation Bar */
+.main-nav{
+    background-color: #ef7e40;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_buttons{
+    display: flex;
+    justify-content: right;
+    flex: left;
+    padding: 15px;
+}
+
+.navigation_button{
+    border: 0px;
+    background-color: transparent;
+}
+
+.navigation_button a{
+    text-decoration: none;
+    color: #fff2f1;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    transition: .2s;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.navigation_button a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+header{
+    background-color: #ef7e40;
+    padding: 15px 0;
+}
+
+/* Form Styles */
+.form{
+    background-color: #ec563c;
+    color: #fff2f1;
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px 40px 20px 40px;
+    margin: 80px auto;
+}
+
+/* commands to style links inside form paragraph */
+.form a{
+    color: #fff2f1;
+    font-weight: bold;
+    text-decoration: none;
+}
+.form h1{
+    text-align: center;
+    color: #fff2f1;
+}
+.form p{
+    text-align: center;
+}
+.form a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+/* Form styles for input fields and submit button */
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"]{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    background-color: #ef7e40;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px 6px 10px 6px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff2f1;
+    transition: 0.2s;
+    margin: 0 auto;
+    width: 100px;
+}
+input[type="submit"]:hover{
+    background-color: #fff2f1;
+    cursor: pointer;
+    color: #ec563c;
+}
+
+/* Hero page styles */
+.hero_page h1{
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    font-size: 70px;
+}
+.hero_page{
+    text-align: center;
+    color: #ec563c;
+    margin: 100px auto 50px auto;
+}
+
+.paragraph{
+    background-color: #ec563c;
+    text-align: center;
+    margin: 20px 40px 50px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff2f1;
+    font-size: 20px;
+
+}
+
+.paragraph_title{
+    font-weight: bold;
+    padding: 0px;
+    text-align: center;
+}
+
+/* Client Testimonials style */
+.testimonials{
+    color: #ec563c;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.testimonial_section{
+    padding: 40px 20px;
+    background-color: #ec563c;
+    text-align: center;
+}
+.testimonial_section h2{
+    margin-bottom: 30px;
+    color: #fff2f1;
+    text-align: center;
+    font-size: 2em;
+}
+.testimonial_container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.testimonial_card{
+    flex: 1 1 calc(33.3333% - 20px);
+    min-width: 280px;
+    background-color: #fff2f1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 5px rgba(0,0,0,1);
+    text-align: left;
+}
+.testimonial_text{
+    font-style: italic;
+    color: #ec563c;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.testimonial_author{
+    font-weight: bold;
+    color: #ec563c;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.95em;
+}
+
+#message{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    background-color: #ec563c;
+    color: #fff2f1;
+    padding: 30px 60px;
+    border-radius: 50px;
+    border: 0px;
+    margin: 60px auto 60px auto;
+    transition: 0.2s;
+    font-size: 26px;
+}
+
+.btn:hover{
+    background-color: #ef7e40;
+    cursor: pointer;
+}
+
+.btn:active{
+    cursor: pointer;
+    color: #ec563c;
+    background-color: #fff2f1;
+}
+
+#btn_section{
+    display: flex;
+    justify-content: center;
+    background-color: #fff2f1;
+    color: #ec563c;
+    padding: 30px 60px;
+    border-radius: 50px;
+    border: 0px;
+    margin: 60px auto 60px auto;
+    transition: 0.2s;
+    font-size: 26px;
+}
+
+
+#btn_section:hover{
+    background-color: #d3d2d2;
+    cursor: pointer;
+}
+
+#btn_section:active{
+    cursor: pointer;
+    color: #ec563c;
+    background-color: #fff2f1;
+}
+
+/* Styling for the packages paragraph */
+.packages{
+    background-color: #ec563c;
+    text-align: left;
+    margin: 20px 40px;
+    border-radius: 20px;
+    padding: 20px;
+    color: #fff2f1;
+    font-size: 20px;
+}
+
+#package_one{
+    text-align: left;
+    color: #fff2f1;
+    font-size: 20px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ef7e40;
+    text-align: center;
+    font-weight: 500px;
+    color: #fff2f1;
+    padding: 20px;
+}
+
+#logo_copy{
+    align-items: center;
+    text-align: left;
+}
+
+#footer_logo{
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+#quick_links a{
+    text-decoration: none;
+    color: #fff2f1;
+}
+
+#social_media a{
+    padding: 5px;
+}
