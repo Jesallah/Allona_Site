@@ -7,6 +7,15 @@ body{
     font-family: poppins;
 }
 
+#home_page_body{
+    margin: 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),  rgba(0,0,0,0.3)) ,url(allona_site_bg_ups.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: poppins;
+}
+
 /* Navigation Bar */
 .main-nav{
     background-color: #ef7e40;
@@ -32,7 +41,7 @@ body{
     color: #fff2f1;
     padding: 10px 15px 10px 15px;
     border-radius: 10px;
-    transition: .2s;
+    transition: .3s;
     font-weight: 600;
     font-size: 18px;
 }
@@ -42,10 +51,6 @@ body{
     color: black;
 }
 
-header{
-    background-color: #ef7e40;
-    padding: 15px 0;
-}
 
 /* Form Styles */
 .form{
@@ -112,7 +117,7 @@ input[type="submit"]:hover{
 }
 .hero_page{
     text-align: center;
-    color: #ec563c;
+    color: #fff2f1;
     margin: 100px auto 50px auto;
 }
 
@@ -242,18 +247,19 @@ input[type="submit"]:hover{
 }
 
 /* Styling for the packages paragraph */
-.packages{
+.packages_info_section{
     background-color: #ec563c;
-    text-align: left;
-    margin: 20px 40px;
+    text-align: center;
+    margin: 20px auto;
     border-radius: 20px;
     padding: 20px;
     color: #fff2f1;
     font-size: 20px;
+    width: 40%;
 }
 
-#package_one{
-    text-align: left;
+.packages h2{
+    /* text-align: left; */
     color: #fff2f1;
     font-size: 20px;
 }
@@ -287,4 +293,19 @@ footer{
 
 #social_media a{
     padding: 5px;
+}
+
+.packages{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ec563c;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+
+.package_details{
+    margin: auto 0px;
+    max-width: 800px;
+    color: #fff2f1;
+    font-size: 25px;
 }
