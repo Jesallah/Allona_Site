@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Allona</title>
+    <title>Sign Up - Allona</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logomark.svg" type="image/x-icon">
 </head>
@@ -29,21 +29,25 @@
             unique discounts for loyal customers.
         </p>
 
-        <form>
+        <form id="sign_up_form">
             <div><label for="name">Name:</label><br>
-            <input type="text" name="name" id="name" placeholder="Enter your name here" required></div>
+            <input type="text" name="name" id="name" placeholder="Enter your fullname here"></div>
             <label for="username">Username:</label><br>
-            <input type="text" name="username" id="username" placeholder="Enter your username here" required>
+            <input type="text" name="username" id="username" placeholder="Enter your username here">
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="age" placeholder="Enter your age here" min="1">
             <label for="email">Email:</label><br>
-            <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+            <input type="email" name="email" id="email" placeholder="Enter your email here">
             <label for="phone">Phone:</label><br>
-            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number here" required><br><br>
+            <input type="number" name="phone" id="phone" placeholder="Enter your phone number here"><br><br>
             <label for="password">Password:</label><br>
-            <input type="password" name="password" id="password" placeholder="Enter your password here" required><br>
+            <input type="password" name="password" id="password" placeholder="Enter your password here"><br>
             <label for="confirm_password"> Confirm Password:</label><br>
-            <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm your password here" required><br><br>
+            <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm your password here"><br><br>
             <label for="sign_up"></label>
-            <input type="submit" value="Sign Up">
+            <input type="submit" value="Sign Up" id="btn">
+
+            <p id="error_message"></p>
         </form>
 
         <p>
@@ -72,5 +76,6 @@
             <a href="https://www.tiktok.com/@allonagh" target="_blank"><img src="Tiktok.svg" alt="Tiktok" width="30px"></a>
         </div>
     </footer>
+<script src="script.js"></script>
 </body>
 </html>

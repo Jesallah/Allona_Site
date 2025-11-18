@@ -48,7 +48,7 @@ body{
 
 .navigation_button a:hover{
     cursor: pointer;
-    color: black;
+    color: red;
 }
 
 
@@ -76,12 +76,19 @@ body{
     text-align: center;
 }
 .form a:hover{
-    color: black;
+    color: lightblue;
     text-decoration: underline;
 }
 
+#error_message{
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
 /* Form styles for input fields and submit button */
-input[type="text"], input[type="email"], input[type="password"], input[type="tel"]{
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="number"]{
     border-radius: 5px;
     border: 1px solid black;
     padding: 8px;
@@ -89,7 +96,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
     width: 100%;
     box-sizing: border-box;
 }
-input[type="submit"]{
+#btn{
     display: flex;
     justify-content: center;
     background-color: #ef7e40;
@@ -99,11 +106,11 @@ input[type="submit"]{
     text-align: center;
     font-size: 15px;
     color: #fff2f1;
-    transition: 0.2s;
+    transition: 0.5s;
     margin: 0 auto;
-    width: 100px;
+    width: 100%;
 }
-input[type="submit"]:hover{
+#btn:hover{
     background-color: #fff2f1;
     cursor: pointer;
     color: #ec563c;
@@ -236,7 +243,8 @@ input[type="submit"]:hover{
 
 
 #btn_section:hover{
-    background-color: #d3d2d2;
+    background-color: #ef7e40;
+    color: #fff2f1;
     cursor: pointer;
 }
 
