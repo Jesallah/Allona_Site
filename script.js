@@ -1,11 +1,11 @@
 let form = document.getElementById("sign_up_form")
 form.addEventListener("submit", (event) => {
     event.preventDefault();
-    let fullnameInput = document.getElementById("name").value.trim()
+    let fullnameInput = document.getElementById("name").value.trim();
     let usernameInput = document.getElementById("username").value.trim();
     let ageInput = document.getElementById("age").value.trim();
     let emailInput = document.getElementById("email").value.trim();
-    let phoneInput = document.getElementById("phone").value.trim()
+    let phoneInput = document.getElementById("phone").value.trim();
     let passwordInput = document.getElementById("password").value;
     let confirmPasswordInput = document.getElementById("confirm_password").value;
 
