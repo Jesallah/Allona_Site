@@ -8,16 +8,12 @@
     <link rel="shortcut icon" href="logomark.svg" type="image/x-icon">
 </head>
 <body>
-    <div class="main-nav">
-        <a href="index.html"><img src="secodary logo copy_white.svg" alt="Allona Essentials" width="180" height="40" style="padding: 7px;"></a>
-        <nav class="nav_buttons">
-                <a href="about_us.html" class="navigation_button">About Us</a>
-                <a href="contact_us.html" class="navigation_button">Contact Us</a>
-                <a href="packages.html" class="navigation_button">Packages</a>
-                <a href="login.html" class="navigation_button">Login</a>
-                <a href="sign_up.html" class="navigation_button">Sign Up</a>
-        </nav>
-    </div>
+    <div id="navbar"></div>
+    <script>
+    fetch('navbar.html')
+        .then(res => res.text())
+        .then(html => document.getElementById('navbar').innerHTML = html)
+    </script>
 
 
     <div class="hero_page" style="margin-bottom: 80px;"> 
