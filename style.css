@@ -226,6 +226,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
 .btn{
     display: flex;
     justify-content: center;
+    width: fit-content;
     background-color: #ec563c;
     color: #fff2f1;
     padding: 30px 60px;
@@ -250,6 +251,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
 #btn_section{
     display: flex;
     justify-content: center;
+    width: fit-content;
     background-color: #fff2f1;
     color: #ec563c;
     padding: 30px 60px;
@@ -262,9 +264,10 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
 
 
 #btn_section:hover{
+    cursor: pointer;
     background-color: #ef7e40;
     color: #fff2f1;
-    cursor: pointer;
+    box-shadow: 0 4px 5px #964d27;
 }
 
 #btn_section:active{
