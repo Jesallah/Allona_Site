@@ -48,27 +48,12 @@
         </div>
     </div>
 
-
-     <footer>
-        <div id="logo_copy">
-            <a href="index.html"><img src="secodary logo copy_white.svg" alt="Allona Essentials" width="250" height="60" id="footer_logo"></a><br>
-            &copy; Copyright 2025 - Allona Essentials | Judah Sallah
-        </div>
-        <div id="quick_links">
-            <h3 style="margin: 5px;">Quick Links</h3>
-            <a href="about_us.html">About Us</a><br>
-            <a href="contact_us.html">Contact Us</a><br>
-            <a href="packages.html">Packages</a><br>
-            <a href="login.html">Login</a><br>
-            <a href="sign_up.html">Sign Up</a>
-        </div>
-        <div id="social_media">
-            <h3 style="margin: 5px;">Social media</h3>
-            <a href="https://www.instagram.com/allonagh/" target="_blank"><img src="social-media-icons/IG.svg" alt="Instagram" width="30px"></a>
-            <a href="https://web.facebook.com/allonagh" target="_blank"><img src="social-media-icons/FB.svg" alt="FaceBook" width="30px"></a>
-            <a href="https://wa.me/+2339885555" target="_blank"><img src="social-media-icons/whatsapp.svg" alt="WhatsApp" width="30px"></a>
-            <a href="https://www.tiktok.com/@allonagh" target="_blank"><img src="social-media-icons/Tiktok.svg" alt="Tiktok" width="30px"></a>
-        </div>
-    </footer>
+    <!-- Footer -->
+    <div id="footer"></div>
+    <script>
+    fetch('footer.html')
+        .then(res => res.text())
+        .then(html => document.getElementById('footer').innerHTML = html)
+    </script>
 </body>
 </html>
