@@ -34,16 +34,7 @@ form.addEventListener("submit", (event) => {
         errorMessage.textContent = "Username should be at least 3 characters";
         return;
     }
-
-    if (ageInput === "" || isNaN(ageInput)){
-        errorMessage.textContent = "Age is required";
-        return;
-    }
-    if (ageInput < 18){
-        errorMessage.textContent = "User must be 18 or above";
-        return;
-    }
-
+    
     if (emailInput === ""){
         errorMessage.textContent = "Email is required";
         return;
