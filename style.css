@@ -108,15 +108,15 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
     border-radius: 8px;
     border: 0px;
     margin: 20px auto 20px auto;
-    transition: 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 .form-submit-button:hover{
     /* padding: 15px 25px; */
     cursor: pointer;
     background-color: #ef7e40;
     color: #fff2f1;
-    transform: translateY(-4px);
-    box-shadow: 0 4px 2px #75410b;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 5px #75410b;
 }
 
 #btn{
