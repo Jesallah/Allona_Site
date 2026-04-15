@@ -33,22 +33,20 @@ body{
 
 .navigation_button{
     border: 0px;
-    background-color: transparent;
-}
-
-.navigation_button a{
     text-decoration: none;
     color: #fff2f1;
-    padding: 10px 15px 10px 15px;
-    border-radius: 10px;
-    transition: .3s;
+    /* top right bottom left */
+    padding: 5px 15px 5px 15px;
     font-weight: 600;
     font-size: 18px;
 }
 
-.navigation_button a:hover{
+.navigation_button:hover{
     cursor: pointer;
-    color: red;
+    text-decoration: underline;
+    text-decoration-color: #ec563c;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
 }
 
 
@@ -101,7 +99,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="tel
     justify-content: center;
     background-color: #ef7e40;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 3px;
     padding: 10px 6px 10px 6px;
     text-align: center;
     font-size: 15px;
