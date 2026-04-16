@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     margin: 0px;
     background-image: url(white\ wavy\ 2.jpg);
@@ -17,9 +22,10 @@ body{
 }
 
 /* Navigation Bar */
-.main-nav{
+.navbar{
     background-color: #ef7e40;
-    padding: 15px;
+    padding: 0px;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
 }
@@ -28,6 +34,9 @@ body{
     display: flex;
     justify-content: right;
     flex: left;
+    height: fit-content;
+    margin-top: .5%;
+    margin-bottom: .5%;
     padding: 15px;
 }
 
